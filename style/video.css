@@ -1,0 +1,88 @@
+
+        .thumbnail{
+            /* Video tumbnail picture */
+            width: 100%;
+            cursor: pointer;
+            /*height: 280px;
+            object-fit: contain;
+            object-position: right; 
+             object position se eright or left kis side focus chahiye ye pta lgaya jata hai */
+        }
+        
+        .video-title{
+            /* video ka naam  */
+            margin-top: 0;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 15px;
+            margin-bottom: 10px;
+        }
+        
+        /* channel profile picture or the icon */
+        .channel-picture{
+            display:inline-block;
+            width: 50px;
+            vertical-align: top;
+            border-radius: 40px;
+            
+        }
+        .video-info{
+            /* video info class (name of video,channel name, views)*/
+            display: inline-block;
+            width: 200px;
+            vertical-align: top;
+            margin-right: 5px;
+            left: 5px;
+            
+
+        }
+        .profile-pic{
+            width: 36px;  
+            border-radius: 30px;
+            cursor:pointer ;
+            
+        }
+       .thumbnail-row{
+        margin-bottom: 8px;
+        position: relative;
+       }
+       .video-type{
+       font-size: 11px;
+       color: rgb(96, 96, 96);
+       margin-top: 10px;
+       }
+       .video-author{
+        /* views class */
+        font-size: 12px;
+        color: rgb(96, 96, 96);
+    }
+
+     /* .video-preview{
+        width: 300px;
+        display: grid;
+        vertical-align: top;
+        margin-right: 15px;
+    } */
+    
+    .video-info-grid{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 10px;
+    }
+    .video-time{
+        font-family: Robot,Arial;
+        font-size: 12px;
+        font-weight: 500;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 4px;
+        padding-top: 4px;
+        border-radius: 2px;
+background-color: black;
+color: white;
+position: absolute;
+bottom: 8px;
+right: 5px;
+
+}
